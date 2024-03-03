@@ -1,0 +1,52 @@
+.todoItemCard {
+  padding: 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.todoItemCard p {
+
+  flex-grow: 1;
+}
+
+.todoItemCard img {
+  cursor: pointer;
+}
+
+.delete {
+ width: 30px;
+ height: 30px;
+}
+
+.todoItemColor {
+  width: 25px;
+  height: 25px;
+  border-radius: 8px;
+  background: #984040;
+}
+.deleteIconDisable {
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.listItem {
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.listItem:hover {
+  transform: scale(1.02);
+}
+
+
+.itemComplite {
+  text-decoration: line-through;
+}
+
+.itemComplite:hover {
+  transform: scale(1);
+}
+
+
